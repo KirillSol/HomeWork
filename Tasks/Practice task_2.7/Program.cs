@@ -7,9 +7,9 @@
             string fullName = "Соболев Кирилл Сергеевич";
             byte age = 20;
             string eMail = "sobolev_mdf119@mail.ru";
-            decimal scoreProgramm = 79; // баллы на экзаменах всегда целые числа
-            decimal scoreMath = 80;
-            decimal scorePhys = 65;
+            decimal scoreProgramm = 79M; // баллы на экзаменах всегда целые числа
+            decimal scoreMath = 80M;
+            decimal scorePhys = 65M;
 
             string pattern = "Ф.И.О.  {0} \nВозраст: {1} \nEmail: {2} \nБаллы по программированию: {3} \nБаллы по математике: {4} \nБаллы по физике: {5}";
             Console.WriteLine(pattern, fullName, age, eMail, scoreProgramm, scoreMath, scorePhys);
